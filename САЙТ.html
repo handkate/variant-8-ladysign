@@ -1,0 +1,317 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="simple-adaptive-slider.css">
+    
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link type="image/png" sizes="25x25" rel="icon" href="img/logo.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <script defer src="javaScript.js"></script>
+    <title>Ladesign</title>
+    <style>
+      /* стили для элемента body */
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+        sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+      }
+
+      /* дополнительные стили для этого примера */
+      .itcss__items {
+        counter-reset: slide;
+      }
+
+      .itcss__item {
+        counter-increment: slide;
+      }
+
+      .itcss__item>div::before {
+        content: counter(slide);
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        color: #fff;
+        font-style: italic;
+        font-size: 32px;
+        font-weight: bold;
+      }
+    </style>
+    <script defer src="simple-adaptive-slider.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        // активация слайдера
+        new ItcSimpleSlider('.itcss', {
+          loop: true,
+          autoplay: true,
+          swipe: true
+        });
+      });
+    </script>
+  </head>
+  <body > 
+  
+
+      <main>
+        <section1 class="section1">
+          <div class="front_bg_sec1">
+            <div class="header">
+              <div class="logo_header"></div>
+              <div class="head_conteiner">
+                <div class="box1_head_conteiner">
+                  <p class="text_head">Портфолио</p>
+                </div>
+                <div class="box2_head_conteiner">
+                  <p class="text_head">услуги и цены</p>
+                </div>
+                <div class="box3_head_conteiner">
+                  <p class="text_head">контакты</p>
+                </div>
+                <div class="logo_phone"></div>
+                <p class="phone_number">+7 918 412-34-43</p>
+              </div>
+            </div>
+          </div> 
+          
+          <h1 class="h1_sec1">Ladesign</h1>
+              <p class="p_sec1">Дизайн-проекты жилых и коммерческих помещений. Малая архитектура</p>
+              
+        </section1>
+        
+
+
+        <section2 class="section2">
+          <div class="pod1_sec2">
+            <h2 class="h2_sec2">Наша команда дает уверенность</h2>
+            <p class="main_p_sec2">Дизайн-проект от студии LA Design не только совершенен по дизайну, но и реализуем</p>
+            <div class="zayavka">
+
+            </div>
+              
+            <div class="cont_sec2">
+              <div class="box1_sec2">
+                <div class="box1_line"></div>
+                <p class="p_box1_sec2">Каждый проект уникален</p>
+                <div class="img1_cont_sec2"></div>
+              </div>
+
+              <div class="box2_sec2">
+                <div class="box2_line"></div>
+                <p class="p_box2_sec2">Полное сопровождение</p>
+                <div class="img2_cont_sec2"></div>
+              </div>
+
+              <div class="box3_sec2">
+                <div class="box3_line"></div>
+                <p class="p_box3_sec2">Согласование перепланировки</p>
+                <div class="img3_cont_sec2"></div>
+                <p class="many_text_box3_sec2">Поможем согласовать любые планировочные решения, 
+                  которые не противоречат закону. 
+                  Возьмем на себя все бумажные вопросы, чтобы освободить ваше время</p>
+              </div>
+
+              <div class="box4_sec2">
+                <div class="box4_line"></div>
+                <p class="p_box4_sec2">Техническая документация</p>
+                <div class="img4_cont_sec2"></div>
+              </div>
+
+              <div class="box5_sec2">
+                <div class="box5_line1"></div>
+                <p class="p_box5_sec2">Строгая политика конфиденциальности</p>
+                <div class="img5_cont_sec2"></div>
+                <div class="box5_line2"></div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="pod2_sec2">
+            <h2 class="h2_pod2_sec2">Портфолио</h2>
+            <div class="cont1_pod2_sec2">
+              <div class="box1_cont1_pod2_sec2">
+                <p class="p1_box_cont1">все работы</p>
+                <p class="box_number1_cont1">29</p>
+                
+              </div>
+              <div class="box2_cont1_pod2_sec2">
+                <p class="p2_box_cont1">квартиры</p>
+                <p class="box_number2_cont1">18</p>
+                
+              </div>
+              <div class="box3_cont1_pod2_sec2">
+                <p class="p3_box_cont1">дома</p>
+                <p class="box_number3_cont1">12</p>
+                
+              </div>
+              <div class="box4_cont1_pod2_sec2">
+                <p class="p4_box_cont1">коммерческие помещения</p>
+                <p class="box_number4_cont1">7</p>
+                
+              </div>
+            </div>
+            <div class="cont2_pod2_sec2">
+              <div class="box1_cont2_pod2_sec2"></div>
+              <div class="box2_cont2_pod2_sec2"></div>
+              <div class="box5_cont2_pod2_sec2"></div>
+              <div class="box6_cont2_pod2_sec2"></div>
+              <div class="box7_cont2_pod2_sec2"></div>
+              <div class="box8_cont2_pod2_sec2"></div>
+              <div class="box9_cont2_pod2_sec2"></div>
+            </div>
+            <div class="button_pod2_sec2">
+              
+              <P class="button_text_sec2">показать еще работы</P>
+            </div>
+            
+            
+          </div>
+          
+
+
+
+          <div class="pod3_sec2">
+            <p class="text_pod3_sec2">оставить заявку на проект</p>
+            <div clas="arrow_frame">
+              <div class="arrow"></div>
+            </div>
+            <div class="line_pod3_sec2"></div>
+
+          </div>
+          <div class="contact_conten">
+            <form action="#" class="form">
+                <input type="text" name="Name" class="form_name" placeholder="Name" required>
+                <input type="email" name="Email" class="form_email" placeholder="Email address" required>
+                <input type="tel" name="Phone" class="form_tel" placeholder="Phone number" required>
+                <textarea name="project" class="form_Project" placeholder="Describe your own Design..." required></textarea>
+
+                <!-- <textarea type="text" name="project " class="form_Project" placeholder="Describe your project..."> -->
+            </form>
+            <div class="form_send">
+                <input type="submit" name="Send" class="form_btn" value="Send">
+            </div>
+          </div>
+
+          <!-- <swiper-container class="mySwiper" navigation="true">
+            <swiper-slide>Slide 1</swiper-slide>
+            <swiper-slide>Slide 2</swiper-slide>
+            <swiper-slide>Slide 3</swiper-slide>
+            <swiper-slide>Slide 4</swiper-slide>
+            <swiper-slide>Slide 5</swiper-slide>
+            <swiper-slide>Slide 6</swiper-slide>
+            <swiper-slide>Slide 7</swiper-slide>
+            <swiper-slide>Slide 8</swiper-slide>
+            <swiper-slide>Slide 9</swiper-slide>
+          </swiper-container> -->
+      
+
+
+
+
+          <!-- <div class="swiper-container">
+            
+            <div class="swiper-wrapper">
+            
+              <div class="swiper-slide1"><img src="img/Слайдер 1.jpg" alt=""></div>
+              <div class="swiper-slide2"><img src="img/Слайдер 2.jpg"></div>
+              <div class="swiper-slide3"><img src="img/Слайдер 3.jpg"></div>
+              <div class="swiper-slide4"><img src="img/Слайдер 4.jpg"></div>
+              <div class="swiper-slide5"><img src="img/Слайдер 5.jpg"></div>
+            </div>
+            
+            <div class="swiper-pagination"></div>
+            
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div> -->
+
+      
+      
+      
+          <!-- Разметка слайдера -->
+          <div class="itcss">
+            <div class="itcss__wrapper">
+              <div class="itcss__items">
+                <div class="itcss__item">
+                  <div style="height: 800px; background-image: url(img/слайдер1.jpeg);"></div>
+                </div>
+                <div class="itcss__item">
+                  <div style="height: 800px; background-image: url(img/слайдер2.jpeg);"></div>
+                </div>
+                <div class="itcss__item">
+                  <div style="height: 800px; background-image: url(img/слайдер3.jpeg);"></div>
+                </div>
+                <div class="itcss__item">
+                  <div style="height: 800px; background-image: url(img/слайдер4.jpeg);"></div>
+                </div>
+              </div>
+            </div>
+            <button class="itcss__btn itcss__btn_prev" role="button" data-slide="prev"></button>
+            <button class="itcss__btn itcss__btn_next" role="button" data-slide="next"></button>
+          </div>  
+        </section2>
+        
+
+              
+      </main>
+      <footer class="footer">
+        <!-- <div class="container" id="contant"><br><br><br>
+          <h1 class="title is-3 animate__animated animate__slideInRight animate__slower" style="text-align:center;"></h1>
+          <div class="wrapper animate__animated animate__slideInLeft animate__slower">
+            <div class="alert"></div>
+            <form id="contactForm" style="text-align:center;">
+        
+              <label for="name" style="text-align:left;font-weight:bold;font-size:1em;">Name *</label>
+              <div class="control has-icons-left">
+                <input type="text" name="name" id="name" class="input is-success is-normal" placeholder="Enter Your Name" style="height:7vh;" required>
+                <span class="icon is-left is-small">
+                  <i class="fa fa-user"></i>
+                </span>
+              </div>
+        
+              <label for="name" style="text-align:left;font-weight:bold;font-size:1em;">Email *</label>
+              <div class="control has-icons-left">
+                <input type="email" name="email" id="email" class="input is-success is-normal" placeholder="Enter your email" style="height:7vh;" required>
+                <span class="icon is-left is-small">
+                  <i class="fa fa-envelope"></i>
+                </span>
+              </div>
+        
+              <label for="name" style="text-align:left;font-weight:bold;font-size:1em;">Message *</label>
+              <textarea class="textarea is-success" id="message" placeholder="" required></textarea>
+              <br><br>
+        
+              <button class="button is-large is-fullwidth is-danger is-light" type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+         -->
+        <div class="frame_foot">
+          <div class="inst_frame_foot">
+            <div class="box1_inst_frame_foot">
+              houzz
+            </div>
+            <div class="box2_inst_frame_foot">
+              instagram
+            </div>
+
+          </div>
+          <p class="text_frame_foot">© 2022 LA Design, all rights reserved.</p>
+
+        </div>
+
+      </footer>
+      <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <script src="javaScript.js"></script> -->
+
+  </body>
+  
+</html>
